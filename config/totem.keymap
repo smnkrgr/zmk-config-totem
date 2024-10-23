@@ -25,7 +25,7 @@
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
-    flavor = "tap-preferred";
+    flavor = "tap-unless-interrupted";
     tapping-term-ms = <170>;
 };
 
@@ -39,27 +39,21 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 0>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
         };
     };
 
     macros {
-        gif: gif {
-            label = "giphy";
+        obsidian_code_block: obsidian_code_block {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
+                <&kp GRAVE &kp GRAVE &kp GRAVE &kp GRAVE &kp GRAVE &kp GRAVE &kp LEFT &kp LEFT &kp LEFT &kp ENTER>;
+
+            label = "OBSIDIAN_CODE_BLOCK";
         };
     };
 
@@ -111,10 +105,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &trans     &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7        &kp KP_N8        &kp KP_N9        &kp KP_PLUS
-        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_GUI
-&trans  &kp DEL    &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp KP_MULTIPLY  &kp RGUI
-                              &trans    &trans     &trans      &mo 3     &kp KP_N0        &trans
+        &kp ESC    &kp TILDE2  &kp UP                &kp EQUAL  &kp LBRC    &kp RBRC        &kp N7        &kp N8        &kp N9        &kp LC(LS(C))
+        &kp LSHFT  &kp LEFT    &kp DOWN              &kp RIGHT  &kp LBKT    &kp RBKT        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
+&trans  &kp DEL    &kp PG_UP   &obsidian_code_block  &kp PG_DN  &kp LPAR    &kp RPAR        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(LC(V))  &kp RGUI
+                               &mo 3                 &trans     &trans      &kp LEFT_SHIFT  &kp LEFT_ALT  &trans
             >;
         };
 
