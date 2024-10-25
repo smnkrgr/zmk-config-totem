@@ -80,9 +80,9 @@
 
             bindings = <
             &kp Q  &mt LCTRL W  &mt LEFT_ALT E  &mt LEFT_GUI R  &kp T           &kp Y      &mt RIGHT_GUI U  &mt RIGHT_ALT I  &mt RCTRL O  &kp P
-            &kp A  &kp S        &kp D           &kp F           &kp G           &kp H      &kp J            &kp K            &kp L        &kp SPACE
-&kp LSHIFT  &kp Z  &kp X        &kp C           &kp V           &kp B           &kp N      &kp M            &kp COMMA        &kp DOT      &kp FSLH   &kp ENTER
-                                &lt 3 B         &lt 2 PG_DN     &lt 1 DELETE    &kp SPACE  &kp BACKSPACE    &lt 1 B
+            &kp A  &kp S        &kp D           &kp F           &kp G           &kp H      &kp J            &kp K            &kp L        &kp SEMICOLON
+&kp LSHIFT  &kp Z  &kp X        &kp C           &kp V           &kp B           &kp N      &kp M            &kp COMMA        &kp DOT      &kp FSLH       &kp COLON
+                                &lt 3 B         &lt 2 ENTER     &lt 1 DELETE    &kp SPACE  &kp BACKSPACE    &lt 1 B
             >;
         };
 
@@ -105,10 +105,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &kp TILDE2  &kp UP                &kp EQUAL  &kp LBRC    &kp RBRC        &kp N7        &kp N8        &kp N9        &kp LC(LS(C))
-        &kp LSHFT  &kp LEFT    &kp DOWN              &kp RIGHT  &kp LBKT    &kp RBKT        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
-&trans  &kp DEL    &kp PG_UP   &obsidian_code_block  &kp PG_DN  &kp LPAR    &kp RPAR        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(LC(V))  &kp RGUI
-                               &mo 3                 &trans     &trans      &kp LEFT_SHIFT  &kp LEFT_ALT  &trans
+        &kp LS(LC(V))  &kp TILDE2  &kp UP                &kp EQUAL  &kp LBRC    &kp RBRC        &kp N7        &kp N8        &kp N9        &kp LC(LS(C))
+        &kp LS(LC(C))  &kp LEFT    &kp DOWN              &kp RIGHT  &kp LBKT    &kp RBKT        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0
+&trans  &kp DEL        &kp PG_UP   &obsidian_code_block  &kp PG_DN  &kp LPAR    &kp RPAR        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp RGUI
+                                   &mo 3                 &trans     &trans      &kp LEFT_SHIFT  &kp LEFT_ALT  &trans
             >;
         };
 
