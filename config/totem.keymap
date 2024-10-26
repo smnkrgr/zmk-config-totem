@@ -79,9 +79,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q  &mt LCTRL W  &mt LEFT_ALT E  &mt LEFT_GUI R  &kp T           &kp Y      &mt RIGHT_GUI U  &mt RIGHT_ALT I  &mt RCTRL O  &kp P
+            &kp Q  &mt LCTRL W  &mt LEFT_ALT E  &mt LEFT_GUI R  &kp T           &kp Z      &mt RIGHT_GUI U  &mt RIGHT_ALT I  &mt RCTRL O  &kp P
             &kp A  &kp S        &kp D           &kp F           &kp G           &kp H      &kp J            &kp K            &kp L        &kp SEMICOLON
-&kp LSHIFT  &kp Z  &kp X        &kp C           &kp V           &kp B           &kp N      &kp M            &kp COMMA        &kp DOT      &kp FSLH       &kp COLON
+&kp LSHIFT  &kp Y  &kp X        &kp C           &kp V           &kp B           &kp N      &kp M            &kp COMMA        &kp DOT      &kp FSLH       &kp COLON
                                 &lt 3 B         &lt 2 ENTER     &lt 1 DELETE    &kp SPACE  &kp BACKSPACE    &lt 1 B
             >;
         };
