@@ -131,7 +131,7 @@
         &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp LG(NUMBER_6)  &kp LG(NUMBER_7)      &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &trans
         &trans            &mkp RCLK         &mkp MCLK         &mkp MB1          &kp LG(LS(Q))       &kp LG(LEFT)      &kp LG(DOWN)          &kp LG(DOWN)      &kp LG(RIGHT)     &trans
 &trans  &trans            &trans            &trans            &trans            &trans              &trans            &obsidian_code_block  &trans            &trans            &trans  &trans
-                                            &trans            &trans            &trans              &kp LEFT_SHIFT    &trans                &trans
+                                            &trans            &trans            &trans              &kp LEFT_SHIFT    &kp ENTER             &trans
             >;
         };
 
