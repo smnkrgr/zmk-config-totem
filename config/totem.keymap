@@ -104,10 +104,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp LC(X)    &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp GRAVE     &kp BACKSLASH    &trans
-        &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(C)    &kp LEFT_ARROW   &kp DOWN_ARROW         &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(V)    &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &trans        &trans           &trans  &trans
-                                    &mo 4         &trans        &trans       &trans           &trans                 &kp LALT
+              &trans        &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp LC(X)    &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp GRAVE       &kp BACKSLASH    &trans
+              &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(C)    &kp LEFT_ARROW   &kp DOWN_ARROW         &kp UP_ARROW    &kp RIGHT_ARROW  &trans
+&kp LEFT_ALT  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(V)    &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &trans          &trans           &trans  &trans
+                                          &mo 4         &trans        &trans       &trans           &trans                 &kp LEFT_SHIFT
             >;
         };
 
@@ -165,6 +165,15 @@
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                  &trans        &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        symbol_layer {
+            bindings = <
+        &trans           &trans  &trans    &trans      &trans            &trans     &trans         &trans        &trans     &trans
+        &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp EQUAL
+&trans  &trans           &trans  &trans    &trans      &trans            &trans     &trans         &trans        &trans     &trans     &trans
+                                 &trans    &trans      &kp LEFT_SHIFT    &trans     &trans         &trans
             >;
         };
 
