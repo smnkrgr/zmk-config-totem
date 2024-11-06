@@ -83,7 +83,7 @@
             &kp Q        &kp W       &kp E        &kp R      &kp T          &kp Z        &mt RIGHT_SHIFT U  &mt RGUI I  &mt RALT O  &mt RCTRL P
             &mt RCTRL A  &mt LALT S  &mt LG(D) D  &kp F      &kp G          &kp H        &kp J              &kp K       &kp L       &kp SEMICOLON
 &kp LSHIFT  &kp Y        &kp X       &kp C        &kp V      &kp B          &kp N        &kp M              &kp COMMA   &kp DOT     &kp FSLH       &kp SQT
-                                     &lt 3 LGUI   &lt 2 TAB  &lt 1 ENTER    &lt 5 SPACE  &kp BACKSPACE      &kp DELETE
+                                     &lt 4 LGUI   &lt 3 TAB  &lt 1 ENTER    &lt 2 SPACE  &kp BACKSPACE      &kp DELETE
             >;
         };
 
@@ -104,10 +104,19 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &trans        &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp LC(X)    &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp GRAVE       &kp BACKSLASH    &trans
-              &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(C)    &kp LEFT_ARROW   &kp DOWN_ARROW         &kp UP_ARROW    &kp RIGHT_ARROW  &trans
-&kp LEFT_ALT  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(V)    &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &trans          &trans           &trans  &trans
-                                          &mo 4         &trans        &trans       &trans           &trans                 &kp LEFT_SHIFT
+              &trans        &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp LC(X)    &trans          &trans          &kp GRAVE       &kp BACKSLASH    &trans
+              &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LC(C)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans
+&kp LEFT_ALT  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LC(V)    &trans          &trans          &trans          &trans           &trans  &trans
+                                          &mo 5         &trans        &trans       &trans          &trans          &kp LEFT_SHIFT
+            >;
+        };
+
+        symbol_layer {
+            bindings = <
+        &trans           &trans  &trans    &kp BACKSLASH     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp GRAVE          &trans        &trans     &trans
+        &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR        &kp PERCENT             &kp CARET              &kp AMPERSAND      &kp ASTERISK  &kp MINUS  &kp EQUAL
+&trans  &trans           &trans  &trans    &kp LEFT_BRACKET  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &trans        &trans     &trans     &trans
+                                 &trans    &trans            &kp LEFT_SHIFT          &trans                 &trans             &trans
             >;
         };
 
@@ -165,15 +174,6 @@
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                  &trans        &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        symbol_layer {
-            bindings = <
-        &trans           &trans  &trans    &trans            &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans             &trans        &trans     &trans
-        &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR        &kp PERCENT             &kp CARET              &kp AMPERSAND      &kp ASTERISK  &kp MINUS  &kp EQUAL
-&trans  &trans           &trans  &trans    &kp LEFT_BRACKET  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &trans        &trans     &trans     &trans
-                                 &trans    &trans            &kp LEFT_SHIFT          &trans                 &trans             &trans
             >;
         };
 
