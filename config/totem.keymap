@@ -80,10 +80,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q        &kp W       &kp E        &kp R      &kp T          &kp Z      &mt RIGHT_SHIFT U  &mt RGUI I  &mt RALT O  &mt RCTRL P
-            &mt RCTRL A  &mt LALT S  &mt LG(D) D  &kp F      &kp G          &kp H      &kp J              &kp K       &kp L       &kp SEMICOLON
-&kp LSHIFT  &kp Y        &kp X       &kp C        &kp V      &kp B          &kp N      &kp M              &kp COMMA   &kp DOT     &kp FSLH       &kp SQT
-                                     &lt 3 LGUI   &lt 2 TAB  &lt 1 ENTER    &kp SPACE  &kp BACKSPACE      &kp DELETE
+            &kp Q        &kp W       &kp E        &kp R      &kp T          &kp Z        &mt RIGHT_SHIFT U  &mt RGUI I  &mt RALT O  &mt RCTRL P
+            &mt RCTRL A  &mt LALT S  &mt LG(D) D  &kp F      &kp G          &kp H        &kp J              &kp K       &kp L       &kp SEMICOLON
+&kp LSHIFT  &kp Y        &kp X       &kp C        &kp V      &kp B          &kp N        &kp M              &kp COMMA   &kp DOT     &kp FSLH       &kp SQT
+                                     &lt 3 LGUI   &lt 2 TAB  &lt 1 ENTER    &lt 5 SPACE  &kp BACKSPACE      &kp DELETE
             >;
         };
 
@@ -170,10 +170,10 @@
 
         symbol_layer {
             bindings = <
-        &trans           &trans  &trans    &trans      &trans            &trans     &trans         &trans        &trans     &trans
-        &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT       &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp EQUAL
-&trans  &trans           &trans  &trans    &trans      &trans            &trans     &trans         &trans        &trans     &trans     &trans
-                                 &trans    &trans      &kp LEFT_SHIFT    &trans     &trans         &trans
+        &trans           &trans  &trans    &trans            &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans             &trans        &trans     &trans
+        &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR        &kp PERCENT             &kp CARET              &kp AMPERSAND      &kp ASTERISK  &kp MINUS  &kp EQUAL
+&trans  &trans           &trans  &trans    &kp LEFT_BRACKET  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &trans        &trans     &trans     &trans
+                                 &trans    &trans            &kp LEFT_SHIFT          &trans                 &trans             &trans
             >;
         };
 
