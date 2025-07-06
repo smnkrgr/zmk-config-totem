@@ -81,10 +81,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q        &kp W       &kp E           &kp R       &kp T          &kp Z          &mt RIGHT_SHIFT U  &mt RGUI I  &mt RALT O  &mt RCTRL P
-            &mt RCTRL A  &mt LALT S  &mt LEFT_GUI D  &kp F       &kp G          &kp H          &kp J              &kp K       &kp L       &kp SEMICOLON
-&kp LSHIFT  &kp Y        &kp X       &kp C           &kp V       &kp B          &kp N          &kp M              &kp COMMA   &kp DOT     &kp FSLH       &kp SQT
-                                     &lt 4 TAB       &lt 3 LGUI  &lt 1 ENTER    &kp BACKSPACE  &lt 2 SPACE        &kp DELETE
+            &kp Q        &kp W       &kp E           &kp R      &kp T          &kp Z          &mt RIGHT_SHIFT U  &mt RGUI I  &mt RALT O  &mt RCTRL P
+            &mt RCTRL A  &mt LALT S  &mt LEFT_GUI D  &kp F      &kp G          &kp H          &kp J              &kp K       &kp L       &kp SEMICOLON
+&kp LSHIFT  &kp Y        &kp X       &kp C           &kp V      &kp B          &kp N          &kp M              &kp COMMA   &kp DOT     &kp FSLH       &kp SQT
+                                     &lt 4 LEFT_GUI  &lt 3 TAB  &lt 1 ENTER    &kp BACKSPACE  &lt 2 SPACE        &kp DELETE
             >;
         };
 
@@ -139,7 +139,7 @@
 
             bindings = <
         &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp LG(NUMBER_6)  &kp LG(NUMBER_7)      &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LG(N0)
-        &kp LG(SPACE)     &mkp RCLK         &mkp MCLK         &mkp MB1          &kp LG(LS(Q))       &kp LG(LEFT)      &kp LG(DOWN)          &kp LG(DOWN)      &kp LG(RIGHT)     &kp LG(ENTER)
+        &kp LG(SPACE)     &mkp RCLK         &mkp MCLK         &mkp MB1          &kp LG(LS(Q))       &kp LG(LEFT)      &kp LG(DOWN)          &kp LG(UP_ARROW)  &kp LG(RIGHT)     &kp LG(ENTER)
 &trans  &trans            &trans            &trans            &trans            &kp LG(D)           &trans            &obsidian_code_block  &trans            &trans            &trans         &trans
                                             &trans            &trans            &trans              &kp LEFT_SHIFT    &kp ENTER             &trans
             >;
