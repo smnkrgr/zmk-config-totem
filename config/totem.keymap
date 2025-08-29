@@ -50,6 +50,11 @@
             bindings = <&kp ENTER>;
             key-positions = <13 12 11>;
         };
+
+        Retreat {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+        };
     };
 
     keymap {
