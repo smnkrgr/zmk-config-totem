@@ -45,6 +45,11 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        Enterhaken {
+            bindings = <&kp ENTER>;
+            key-positions = <13 12 11>;
+        };
     };
 
     keymap {
