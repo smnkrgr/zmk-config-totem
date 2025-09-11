@@ -28,7 +28,7 @@
     quick-tap-ms = <150>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <300>;
+    tapping-term-ms = <275>;
 };
 
 / {
@@ -46,14 +46,19 @@
             key-positions = <10 11>;
         };
 
-        Enterhaken {
-            bindings = <&kp ENTER>;
-            key-positions = <13 12 11>;
+        Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <13 12>;
         };
 
-        Retreat {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <16 17>;
+        Paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <23 24>;
+        };
+
+        Cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <2 3>;
         };
     };
 
