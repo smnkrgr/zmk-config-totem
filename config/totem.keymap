@@ -28,7 +28,7 @@
     quick-tap-ms = <150>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <275>;
+    tapping-term-ms = <290>;
 };
 
 / {
@@ -59,6 +59,11 @@
         Cut {
             bindings = <&kp LC(X)>;
             key-positions = <2 3>;
+        };
+
+        NewTab {
+            bindings = <&kp LC(T)>;
+            key-positions = <11 12 13>;
         };
     };
 
